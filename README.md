@@ -10,12 +10,7 @@ In usual case, these are solved by detecting the faults using sensors.
 But in this sample project, for the issue of object overturning, I have tried the solution by AI instead of using the sensors.  
 So this project might not be the best option to solve this issue, basically this is for my study on AI.   
 The output of this project is like:  
-<img src="./myssd/images_for_readme/video-ssd.gif" width="400">
-
-## Note
-
-This container is based on the contrainer from NVIDIA Deep Learning Institute course Getting Started with AI on Jetson Nano.  
-[(NVIDIA Deep Learning Institute)](https://www.nvidia.com/en-us/deep-learning-ai/education/).
+<img src="https://user-images.githubusercontent.com/74876704/104415233-f8b4ba00-55b4-11eb-8835-d2310c2ed799.gif" width="400">
 
 ## Requirements
 - Jetson Nano Developer Kit  
@@ -31,8 +26,14 @@ mkdir -p ~/nvdli-data
 Docker container  
 ```
 sudo docker pull 0717148/myssd
-```
   
+Note:
+This container is based on the contrainer from NVIDIA Deep Learning Institute course Getting Started with AI on Jetson Nano.  
+[(NVIDIA Deep Learning Institute)](https://www.nvidia.com/en-us/deep-learning-ai/education/).
+```
+
+
+
 Run the Docker container with the following command
 (before running the Docker, please make sure that the web-camera is installed to the Jetson USB port)
 ```
